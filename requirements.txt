@@ -1,3 +1,4 @@
 django
 pytest-django
 pytest-pythonpath
+model_mommy
