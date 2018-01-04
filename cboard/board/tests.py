@@ -9,4 +9,5 @@ def test_test():
     user.set_password('test')
     user.save()
     post = mommy.make('Post')
+    assert post.is_active is True
     assert 1 == 1
